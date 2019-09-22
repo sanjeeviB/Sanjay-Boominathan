@@ -1,5 +1,7 @@
+from typing import List
+
 string = []
-print ("-----",string,"-----")
+#print ("-----",string,"-----")
 
 while True:
     x = input("ENTER THE STRING : ")
@@ -8,7 +10,9 @@ while True:
         break;
     string.append(x)
 
-    print (string)
+    #print (string)
+str(string)
+print(type(string))
 
 for line in string:
     print(line.upper())
